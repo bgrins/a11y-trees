@@ -1,0 +1,36 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: sans-serif, Arial;
+  font-size: 14px/1.5;
+}
+
+#controls {
+  padding: 3px;
+  border-bottom: 2px solid #eee;
+  position: fixed;
+  background: #fafafa;
+  width: 100%;
+  top: 0;
+}
+
+#controls label {
+  vertical-align: middle;
+  user-select: none;
+  font-size: 12px;
+}
+
+#content {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 30px;
+  width: 98%;
+  padding: 5px 0;
+}
+
+#content details {
+  padding-left: 5px;
+}

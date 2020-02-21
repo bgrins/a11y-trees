@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>a11y-trees</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./roles.js"></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="controls">
+      <select id="sites">
+        <option value="amazon.json">Amazon</option>
+        <option value="cnn.json">CNN</option>
+        <option value="mdn-iframe.json">MDN (iframe)</option>
+        <option value="google.json">Google</option>
+        <option value="nytimes.json">NY Times</option>
+        <option value="wikipedia.json">Wikipedia</option>
+        <option value="bootstrap.json">Bootstrap</option>
+        <option value="xbl-post.json">XBL blog post</option>
+        <option value="firefox-dev.json">firefox-dev post</option>
+        <option value="helloworld.json">Hello world</option>
+      </select>
+      <label><input id="debug" type="checkbox" /> Debug View</label>
+    </div>
+    <div id="content"></div>
+  </body>
+</html>
